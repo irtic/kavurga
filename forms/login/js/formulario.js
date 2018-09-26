@@ -24,6 +24,8 @@ function traer_formulario () {
             if(success)
             {
                 $("#formulario").load("forms/login/formulario.php");
+
+                
             }else
             {
                 console.log('No entro');
